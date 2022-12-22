@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Admin extends BaseController
 {
     public function index()
     {
@@ -15,7 +15,7 @@ class Home extends BaseController
     public function search()
     {
         $data = [
-            "pageTitle" => "Search Page",
+            "pageTitle" => "Home Page"
         ];
         return view('search', $data);
     }

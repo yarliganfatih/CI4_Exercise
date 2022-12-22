@@ -1,5 +1,4 @@
 <?= $this->extend("layout/template"); ?>
-
 <?= $this->section("content"); ?>
 
 <!-- banner -->
@@ -9,7 +8,7 @@
          <div class="column is-7-desktop has-text-centered-mobile has-text-centered-tablet has-text-left-desktop">
             <h1 class="mb-4">Documentation Theme By Themefisher Team</h1>
             <p class="mb-4">Lorem ipsum dolor amet, consetetur sadiffspscing elitr, diam nonumy invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua At.</p>
-            <form class="search-wrapper" action="search.html">
+            <form class="search-wrapper" action="search">
                <input id="search-by" name="s" type="search" class="input input-lg"
                   placeholder="Search Here...">
                <button type="submit" class="btn btn-primary">Search</button>
@@ -35,7 +34,7 @@
                   <i class="card-icon ti-panel mb-5"></i>
                   <h3 class="card-title h4">Basic Startup</h3>
                   <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
-                  <a href="list.html" class="stretched-link"></a>
+                  <a href="list" class="stretched-link"></a>
                </div>
             </div>
          </div>
@@ -46,7 +45,7 @@
                   <i class="card-icon ti-credit-card mb-5"></i>
                   <h3 class="card-title h4">Account Bill</h3>
                   <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
-                  <a href="list.html" class="stretched-link"></a>
+                  <a href="list" class="stretched-link"></a>
                </div>
             </div>
          </div>
@@ -57,7 +56,7 @@
                   <i class="card-icon ti-package mb-5"></i>
                   <h3 class="card-title h4">Our Features</h3>
                   <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
-                  <a href="list.html" class="stretched-link"></a>
+                  <a href="list" class="stretched-link"></a>
                </div>
             </div>
          </div>
@@ -68,7 +67,7 @@
                   <i class="card-icon ti-settings mb-5"></i>
                   <h3 class="card-title h4">Theme Facility</h3>
                   <p class="card-text">Cras at dolor eget urna varius faucibus tempus in elit dolor sit amet.</p>
-                  <a href="list.html" class="stretched-link"></a>
+                  <a href="list" class="stretched-link"></a>
                </div>
             </div>
          </div>
@@ -186,7 +185,7 @@
             <h2 class="mb-3">Still Didn&rsquo;t Find Your Answer?</h2>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam <br> nonumy eirmod tempor invidunt ut
                labore et dolore magna aliquyam</p>
-            <a href="contact.html" class="btn btn-primary">Submit a ticket</a>
+            <a href="contact" class="btn btn-primary">Submit a ticket</a>
          </div>
       </div>
    </div>

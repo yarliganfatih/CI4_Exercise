@@ -11,7 +11,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title><?=$pageTitle;?></title>
+  <title><?php echo $pageTitle; ?></title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -38,7 +38,7 @@
 <nav class="navbar is-sticky-top navigation" role="navigation" aria-label="main navigation">
    <div class="container">
       <div class="navbar-brand">
-         <a class="navbar-item" href="index.html">
+         <a class="navbar-item" href="index">
             <img class="img-fluid" src="images/logo.png" alt="godocs" width="155px">
          </a>
    
@@ -51,35 +51,35 @@
    
       <div id="navbar-links" class="navbar-menu">
          <div class="navbar-start ml-auto">
-            <a class="navbar-item" href="index.html">Home</a>
-            <a class="navbar-item" href="list.html">Inner Page</a>
-            <a class="navbar-item" href="search.html">Search Page</a>
+            <a class="navbar-item" href="index">Home</a>
+            <a class="navbar-item" href="list">Inner Page</a>
+            <a class="navbar-item" href="search">Search Page</a>
          </div>
    
          <div class="navbar-end ml-0">
             <div class="navbar-item py-0">
-               <a href="changelog.html" class="btn btn-sm btn-outline-primary ml-4">changelog</a>
-               <a href="contact.html" class="btn btn-sm btn-primary ml-4">contact</a>
+               <a href="changelog" class="btn btn-sm btn-outline-primary ml-4">changelog</a>
+               <a href="contact" class="btn btn-sm btn-primary ml-4">contact</a>
             </div>
          </div>
       </div>
    </div>
 </nav>
 
-<?=  $this->renderSection('content'); ?>
+<?=$this->renderSection('content'); ?>
 
 <footer>
    <div class="container">
       <div class="columns is-multiline is-align-items-center border-bottom py-5">
          <div class="column is-4-desktop is-12-tablet">
             <ul class="list-inline footer-menu has-text-centered has-text-left-desktop">
-               <li class="list-inline-item"><a href="changelog.html">Changelog</a></li>
-               <li class="list-inline-item"><a href="contact.html">contact</a></li>
-               <li class="list-inline-item"><a href="search.html">Search</a></li>
+               <li class="list-inline-item"><a href="changelog">Changelog</a></li>
+               <li class="list-inline-item"><a href="contact">contact</a></li>
+               <li class="list-inline-item"><a href="search">Search</a></li>
             </ul>
          </div>
          <div class="column is-4-desktop is-12-tablet">
-            <a class="navbar-brand is-justify-content-center" href="index.html">
+            <a class="navbar-brand is-justify-content-center" href="index">
                <img class="img-fluid" src="images/logo.png" alt="Hugo documentation theme">
             </a>
          </div>
